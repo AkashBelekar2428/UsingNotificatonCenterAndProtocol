@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE000D0829BC91D000249F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D0729BC91D000249F12 /* AppDelegate.swift */; };
+		AE000D1129BC91D100249F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE000D1029BC91D100249F12 /* Assets.xcassets */; };
+		AE000D1429BC91D100249F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE000D1229BC91D100249F12 /* LaunchScreen.storyboard */; };
+		AE000D1F29BC91D200249F12 /* Flipkart_Shopping_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D1E29BC91D200249F12 /* Flipkart_Shopping_AppTests.swift */; };
+		AE000D2929BC91D200249F12 /* Flipkart_Shopping_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D2829BC91D200249F12 /* Flipkart_Shopping_AppUITests.swift */; };
+		AE000D2B29BC91D200249F12 /* Flipkart_Shopping_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D2A29BC91D200249F12 /* Flipkart_Shopping_AppUITestsLaunchTests.swift */; };
+		AE000D3929BC920600249F12 /* AllCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D3729BC920600249F12 /* AllCategoriesViewController.swift */; };
+		AE000D3A29BC920600249F12 /* AllCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE000D3829BC920600249F12 /* AllCategoriesViewController.xib */; };
+		AE000D3D29BC95A700249F12 /* DressCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D3B29BC95A700249F12 /* DressCategoriesViewController.swift */; };
+		AE000D3E29BC95A700249F12 /* DressCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE000D3C29BC95A700249F12 /* DressCategoriesViewController.xib */; };
+		AE000D4129BC95C000249F12 /* PantCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D3F29BC95C000249F12 /* PantCategoriesViewController.swift */; };
+		AE000D4229BC95C000249F12 /* PantCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE000D4029BC95C000249F12 /* PantCategoriesViewController.xib */; };
+		AE000D4829BC97C300249F12 /* DressTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D4629BC97C300249F12 /* DressTVC.swift */; };
+		AE000D4929BC97C300249F12 /* DressTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE000D4729BC97C300249F12 /* DressTVC.xib */; };
+		AE000D4C29BC986800249F12 /* PantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE000D4A29BC986800249F12 /* PantTVC.swift */; };
+		AE000D4D29BC986800249F12 /* PantTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE000D4B29BC986800249F12 /* PantTVC.xib */; };
+		AEABC39A29BED30400FD7747 /* NewPantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEABC39829BED30400FD7747 /* NewPantViewController.swift */; };
+		AEABC39B29BED30400FD7747 /* NewPantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEABC39929BED30400FD7747 /* NewPantViewController.xib */; };
+		AEABC39E29BED56D00FD7747 /* PantModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEABC39C29BED56D00FD7747 /* PantModelViewController.swift */; };
+		AEABC39F29BED56D00FD7747 /* PantModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEABC39D29BED56D00FD7747 /* PantModelViewController.xib */; };
+		AEB66CA129BCC5DB0081E953 /* LediesDressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB66C9F29BCC5DB0081E953 /* LediesDressViewController.swift */; };
+		AEB66CA229BCC5DB0081E953 /* LediesDressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB66CA029BCC5DB0081E953 /* LediesDressViewController.xib */; };
+		AEB7D96B29BCB882004117D8 /* DressDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7D96929BCB882004117D8 /* DressDetailsViewController.swift */; };
+		AEB7D96C29BCB882004117D8 /* DressDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB7D96A29BCB882004117D8 /* DressDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE000D1B29BC91D200249F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE000CFC29BC91D000249F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE000D0329BC91D000249F12;
+			remoteInfo = "Flipkart Shopping App";
+		};
+		AE000D2529BC91D200249F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE000CFC29BC91D000249F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE000D0329BC91D000249F12;
+			remoteInfo = "Flipkart Shopping App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE000D0429BC91D000249F12 /* Flipkart Shopping App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flipkart Shopping App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE000D0729BC91D000249F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE000D1029BC91D100249F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE000D1329BC91D100249F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE000D1529BC91D100249F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE000D1A29BC91D200249F12 /* Flipkart Shopping AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flipkart Shopping AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE000D1E29BC91D200249F12 /* Flipkart_Shopping_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipkart_Shopping_AppTests.swift; sourceTree = "<group>"; };
+		AE000D2429BC91D200249F12 /* Flipkart Shopping AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flipkart Shopping AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE000D2829BC91D200249F12 /* Flipkart_Shopping_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipkart_Shopping_AppUITests.swift; sourceTree = "<group>"; };
+		AE000D2A29BC91D200249F12 /* Flipkart_Shopping_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipkart_Shopping_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE000D3729BC920600249F12 /* AllCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesViewController.swift; sourceTree = "<group>"; };
+		AE000D3829BC920600249F12 /* AllCategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllCategoriesViewController.xib; sourceTree = "<group>"; };
+		AE000D3B29BC95A700249F12 /* DressCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressCategoriesViewController.swift; sourceTree = "<group>"; };
+		AE000D3C29BC95A700249F12 /* DressCategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DressCategoriesViewController.xib; sourceTree = "<group>"; };
+		AE000D3F29BC95C000249F12 /* PantCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantCategoriesViewController.swift; sourceTree = "<group>"; };
+		AE000D4029BC95C000249F12 /* PantCategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PantCategoriesViewController.xib; sourceTree = "<group>"; };
+		AE000D4629BC97C300249F12 /* DressTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressTVC.swift; sourceTree = "<group>"; };
+		AE000D4729BC97C300249F12 /* DressTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DressTVC.xib; sourceTree = "<group>"; };
+		AE000D4A29BC986800249F12 /* PantTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantTVC.swift; sourceTree = "<group>"; };
+		AE000D4B29BC986800249F12 /* PantTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PantTVC.xib; sourceTree = "<group>"; };
+		AEABC39829BED30400FD7747 /* NewPantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPantViewController.swift; sourceTree = "<group>"; };
+		AEABC39929BED30400FD7747 /* NewPantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewPantViewController.xib; sourceTree = "<group>"; };
+		AEABC39C29BED56D00FD7747 /* PantModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantModelViewController.swift; sourceTree = "<group>"; };
+		AEABC39D29BED56D00FD7747 /* PantModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PantModelViewController.xib; sourceTree = "<group>"; };
+		AEB66C9F29BCC5DB0081E953 /* LediesDressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LediesDressViewController.swift; sourceTree = "<group>"; };
+		AEB66CA029BCC5DB0081E953 /* LediesDressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LediesDressViewController.xib; sourceTree = "<group>"; };
+		AEB7D96929BCB882004117D8 /* DressDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressDetailsViewController.swift; sourceTree = "<group>"; };
+		AEB7D96A29BCB882004117D8 /* DressDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DressDetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE000D0129BC91D000249F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE000D1729BC91D200249F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE000D2129BC91D200249F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE000CFB29BC91D000249F12 = {
+			isa = PBXGroup;
+			children = (
+				AE000D0629BC91D000249F12 /* Flipkart Shopping App */,
+				AE000D1D29BC91D200249F12 /* Flipkart Shopping AppTests */,
+				AE000D2729BC91D200249F12 /* Flipkart Shopping AppUITests */,
+				AE000D0529BC91D000249F12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE000D0529BC91D000249F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE000D0429BC91D000249F12 /* Flipkart Shopping App.app */,
+				AE000D1A29BC91D200249F12 /* Flipkart Shopping AppTests.xctest */,
+				AE000D2429BC91D200249F12 /* Flipkart Shopping AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE000D0629BC91D000249F12 /* Flipkart Shopping App */ = {
+			isa = PBXGroup;
+			children = (
+				AE000D0729BC91D000249F12 /* AppDelegate.swift */,
+				AE000D1229BC91D100249F12 /* LaunchScreen.storyboard */,
+				AE000D4529BC978200249F12 /* Categories */,
+				AE000D4429BC977000249F12 /* Dress */,
+				AE000D4329BC976100249F12 /* Pant */,
+				AE000D1029BC91D100249F12 /* Assets.xcassets */,
+				AE000D1529BC91D100249F12 /* Info.plist */,
+			);
+			path = "Flipkart Shopping App";
+			sourceTree = "<group>";
+		};
+		AE000D1D29BC91D200249F12 /* Flipkart Shopping AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE000D1E29BC91D200249F12 /* Flipkart_Shopping_AppTests.swift */,
+			);
+			path = "Flipkart Shopping AppTests";
+			sourceTree = "<group>";
+		};
+		AE000D2729BC91D200249F12 /* Flipkart Shopping AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE000D2829BC91D200249F12 /* Flipkart_Shopping_AppUITests.swift */,
+				AE000D2A29BC91D200249F12 /* Flipkart_Shopping_AppUITestsLaunchTests.swift */,
+			);
+			path = "Flipkart Shopping AppUITests";
+			sourceTree = "<group>";
+		};
+		AE000D4329BC976100249F12 /* Pant */ = {
+			isa = PBXGroup;
+			children = (
+				AE000D3F29BC95C000249F12 /* PantCategoriesViewController.swift */,
+				AE000D4029BC95C000249F12 /* PantCategoriesViewController.xib */,
+				AE000D4A29BC986800249F12 /* PantTVC.swift */,
+				AE000D4B29BC986800249F12 /* PantTVC.xib */,
+				AEABC39829BED30400FD7747 /* NewPantViewController.swift */,
+				AEABC39929BED30400FD7747 /* NewPantViewController.xib */,
+				AEABC39C29BED56D00FD7747 /* PantModelViewController.swift */,
+				AEABC39D29BED56D00FD7747 /* PantModelViewController.xib */,
+			);
+			path = Pant;
+			sourceTree = "<group>";
+		};
+		AE000D4429BC977000249F12 /* Dress */ = {
+			isa = PBXGroup;
+			children = (
+				AE000D3B29BC95A700249F12 /* DressCategoriesViewController.swift */,
+				AE000D3C29BC95A700249F12 /* DressCategoriesViewController.xib */,
+				AE000D4629BC97C300249F12 /* DressTVC.swift */,
+				AE000D4729BC97C300249F12 /* DressTVC.xib */,
+				AEB7D96929BCB882004117D8 /* DressDetailsViewController.swift */,
+				AEB7D96A29BCB882004117D8 /* DressDetailsViewController.xib */,
+				AEB66C9F29BCC5DB0081E953 /* LediesDressViewController.swift */,
+				AEB66CA029BCC5DB0081E953 /* LediesDressViewController.xib */,
+			);
+			path = Dress;
+			sourceTree = "<group>";
+		};
+		AE000D4529BC978200249F12 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AE000D3729BC920600249F12 /* AllCategoriesViewController.swift */,
+				AE000D3829BC920600249F12 /* AllCategoriesViewController.xib */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE000D0329BC91D000249F12 /* Flipkart Shopping App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE000D2E29BC91D200249F12 /* Build configuration list for PBXNativeTarget "Flipkart Shopping App" */;
+			buildPhases = (
+				AE000D0029BC91D000249F12 /* Sources */,
+				AE000D0129BC91D000249F12 /* Frameworks */,
+				AE000D0229BC91D000249F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flipkart Shopping App";
+			productName = "Flipkart Shopping App";
+			productReference = AE000D0429BC91D000249F12 /* Flipkart Shopping App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE000D1929BC91D200249F12 /* Flipkart Shopping AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE000D3129BC91D200249F12 /* Build configuration list for PBXNativeTarget "Flipkart Shopping AppTests" */;
+			buildPhases = (
+				AE000D1629BC91D200249F12 /* Sources */,
+				AE000D1729BC91D200249F12 /* Frameworks */,
+				AE000D1829BC91D200249F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE000D1C29BC91D200249F12 /* PBXTargetDependency */,
+			);
+			name = "Flipkart Shopping AppTests";
+			productName = "Flipkart Shopping AppTests";
+			productReference = AE000D1A29BC91D200249F12 /* Flipkart Shopping AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE000D2329BC91D200249F12 /* Flipkart Shopping AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE000D3429BC91D200249F12 /* Build configuration list for PBXNativeTarget "Flipkart Shopping AppUITests" */;
+			buildPhases = (
+				AE000D2029BC91D200249F12 /* Sources */,
+				AE000D2129BC91D200249F12 /* Frameworks */,
+				AE000D2229BC91D200249F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE000D2629BC91D200249F12 /* PBXTargetDependency */,
+			);
+			name = "Flipkart Shopping AppUITests";
+			productName = "Flipkart Shopping AppUITests";
+			productReference = AE000D2429BC91D200249F12 /* Flipkart Shopping AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE000CFC29BC91D000249F12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AE000D0329BC91D000249F12 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AE000D1929BC91D200249F12 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AE000D0329BC91D000249F12;
+					};
+					AE000D2329BC91D200249F12 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AE000D0329BC91D000249F12;
+					};
+				};
+			};
+			buildConfigurationList = AE000CFF29BC91D000249F12 /* Build configuration list for PBXProject "Flipkart Shopping App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE000CFB29BC91D000249F12;
+			productRefGroup = AE000D0529BC91D000249F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE000D0329BC91D000249F12 /* Flipkart Shopping App */,
+				AE000D1929BC91D200249F12 /* Flipkart Shopping AppTests */,
+				AE000D2329BC91D200249F12 /* Flipkart Shopping AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE000D0229BC91D000249F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE000D3E29BC95A700249F12 /* DressCategoriesViewController.xib in Resources */,
+				AE000D4D29BC986800249F12 /* PantTVC.xib in Resources */,
+				AEABC39B29BED30400FD7747 /* NewPantViewController.xib in Resources */,
+				AEB66CA229BCC5DB0081E953 /* LediesDressViewController.xib in Resources */,
+				AE000D4229BC95C000249F12 /* PantCategoriesViewController.xib in Resources */,
+				AE000D1429BC91D100249F12 /* LaunchScreen.storyboard in Resources */,
+				AE000D1129BC91D100249F12 /* Assets.xcassets in Resources */,
+				AEB7D96C29BCB882004117D8 /* DressDetailsViewController.xib in Resources */,
+				AE000D3A29BC920600249F12 /* AllCategoriesViewController.xib in Resources */,
+				AE000D4929BC97C300249F12 /* DressTVC.xib in Resources */,
+				AEABC39F29BED56D00FD7747 /* PantModelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE000D1829BC91D200249F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE000D2229BC91D200249F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE000D0029BC91D000249F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB66CA129BCC5DB0081E953 /* LediesDressViewController.swift in Sources */,
+				AE000D3D29BC95A700249F12 /* DressCategoriesViewController.swift in Sources */,
+				AE000D0829BC91D000249F12 /* AppDelegate.swift in Sources */,
+				AE000D4C29BC986800249F12 /* PantTVC.swift in Sources */,
+				AEB7D96B29BCB882004117D8 /* DressDetailsViewController.swift in Sources */,
+				AEABC39E29BED56D00FD7747 /* PantModelViewController.swift in Sources */,
+				AE000D3929BC920600249F12 /* AllCategoriesViewController.swift in Sources */,
+				AEABC39A29BED30400FD7747 /* NewPantViewController.swift in Sources */,
+				AE000D4129BC95C000249F12 /* PantCategoriesViewController.swift in Sources */,
+				AE000D4829BC97C300249F12 /* DressTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE000D1629BC91D200249F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE000D1F29BC91D200249F12 /* Flipkart_Shopping_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE000D2029BC91D200249F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE000D2929BC91D200249F12 /* Flipkart_Shopping_AppUITests.swift in Sources */,
+				AE000D2B29BC91D200249F12 /* Flipkart_Shopping_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE000D1C29BC91D200249F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE000D0329BC91D000249F12 /* Flipkart Shopping App */;
+			targetProxy = AE000D1B29BC91D200249F12 /* PBXContainerItemProxy */;
+		};
+		AE000D2629BC91D200249F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE000D0329BC91D000249F12 /* Flipkart Shopping App */;
+			targetProxy = AE000D2529BC91D200249F12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE000D1229BC91D100249F12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE000D1329BC91D100249F12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE000D2C29BC91D200249F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE000D2D29BC91D200249F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE000D2F29BC91D200249F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flipkart Shopping App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleAppl.Flipkart-Shopping-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE000D3029BC91D200249F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flipkart Shopping App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleAppl.Flipkart-Shopping-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE000D3229BC91D200249F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleAppl.Flipkart-Shopping-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipkart Shopping App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flipkart Shopping App";
+			};
+			name = Debug;
+		};
+		AE000D3329BC91D200249F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleAppl.Flipkart-Shopping-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipkart Shopping App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flipkart Shopping App";
+			};
+			name = Release;
+		};
+		AE000D3529BC91D200249F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleAppl.Flipkart-Shopping-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flipkart Shopping App";
+			};
+			name = Debug;
+		};
+		AE000D3629BC91D200249F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleAppl.Flipkart-Shopping-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flipkart Shopping App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE000CFF29BC91D000249F12 /* Build configuration list for PBXProject "Flipkart Shopping App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000D2C29BC91D200249F12 /* Debug */,
+				AE000D2D29BC91D200249F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE000D2E29BC91D200249F12 /* Build configuration list for PBXNativeTarget "Flipkart Shopping App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000D2F29BC91D200249F12 /* Debug */,
+				AE000D3029BC91D200249F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE000D3129BC91D200249F12 /* Build configuration list for PBXNativeTarget "Flipkart Shopping AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000D3229BC91D200249F12 /* Debug */,
+				AE000D3329BC91D200249F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE000D3429BC91D200249F12 /* Build configuration list for PBXNativeTarget "Flipkart Shopping AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000D3529BC91D200249F12 /* Debug */,
+				AE000D3629BC91D200249F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE000CFC29BC91D000249F12 /* Project object */;
+}
